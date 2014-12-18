@@ -10,7 +10,7 @@ permalink: 				/setup-workspace-part-1
 Here are deployment steps to set up your workspace like the smart engineers do.
 
 <h3>Pre-Deployment: You only need to do this ONCE</h3>
-<p>If you've done this already, skip to <a href="#">Start Server</a></p>
+<p>If you've done this already, skip to <a href="{{ "/setup-workspace-part-2" | prepend: site.baseurl }}">Start Server</a>
 <ol>
 	<li>Download <a href="http://tomcat.apache.org/download-70.cgi">tomcat</a> (Core: zip or tar.gz)</li>
 	<li>Create <code>.profile</code> and change the specific paths
@@ -66,6 +66,9 @@ cp /Users/seimithsuth/Documents/workfolder/SHARED-PLATFORMS/ghix/ghix-platform/s
 </ol>
 
 
-<a href="#">Next: Start Server</a>
+<a href="{{ "/setup-workspace-part-2" | prepend: site.baseurl }}">Next - Workspace Deployment Part 2: Start Server</a>
+
+
+
 
 
