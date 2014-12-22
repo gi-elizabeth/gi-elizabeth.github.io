@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAMQ,uEAA+D;AAC/D,oEAA4D;ACNpE,IAAI;EACH,WAAW,EDOS,6BAAM",
+"sources": ["../_sass/_variables.scss","../_sass/_general.scss"],
+"names": [],
+"file": "main.css"
+}

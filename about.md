@@ -1,24 +1,15 @@
 ---
 layout: page
-title: About
+title: About This Site
 permalink: /about/
 ---
-
-Here you'll find wonderful resources:
-
-<ul>
-	<li>style guidelines</li>
-	<li>deployment steps</li>
-	<li>CSS and LESS guidelines</li>
-	<li>and much much more...</li>
-</ul>
-
 <h3>Contribute to this repository:</h3>
 
 <ul>
 	<li>Go to the <a href="//github.com/gi-elizabeth/gi-elizabeth.github.io">GI Github Repository</a></li>
 	<li>git clone <code>https://github.com/gi-elizabeth/gi-elizabeth.github.io.git</code></li>
 	<li>If you have permission issues, make sure the Github Administrator adds you as a contributor.</li>
+	<li>To not type in a password when you change files, in your command line, rewrite the permissions: <code>chmod -R 0777 gi-elizabeth.github.io</code></li>
 </ul>
 
 <h3>Edit and build here:</h3>
@@ -36,17 +27,23 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 	</li>
-	<li>To add relative URL's
-<pre>
-<a href="{{ "/filename.md" | prepend: site.baseurl }}">Link</a>
-</pre>
+	<li>To add relative URL's 
+		<pre>&lt;a href="&#123;&#123; "/filename" | prepend: site.baseurl &#125;&#125;"&gt;Link&lt;/a&gt;</pre>
 	</li>
 </ul>
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. 
 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-help]: https://github.com/jekyll/jekyll-help
+
+<h3>Categories</h3>
+
+<ul>
+	<li>styleguide</li>
+	<li>development</li>
+	<li>general resources</li>
+</ul>
 
 <p>All that is asked of you is to be organized and be mindful of where posts should be filed under. Other than that, happy documentation-ing!</p>
